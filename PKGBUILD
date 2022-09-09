@@ -13,7 +13,6 @@ arch=('i686' 'x86_64')
 license=('GPL2')
 makedepends=('git')
 depends=('qt5-x11extras' 'qt5-quickcontrols' 'mpv')
-source=("${_pkgname}::git+https://github.com/${_github}")
 sha256sums=('SKIP')
 
 pkgver() {
